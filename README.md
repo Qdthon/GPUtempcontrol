@@ -18,7 +18,7 @@ sh gputempcontrol.sh 80 70 10m
 ```
 Set operating temperature at 75C, check temperature and mek necessary fan speed adjustments every 30 minutes.
 ```
-sh gputempcontrol.sh 75 30m
+sh gputempcontrol.sh 75 75 30m
 ```
 The GPU temperature goes down slowly after the fan speed is increased. So recheck the temperature at least 10 minutes later. Otherwise the GPU performance will be degraded.
  
