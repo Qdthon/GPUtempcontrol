@@ -10,13 +10,14 @@ This script is used to automatically monitor Nvidia GeForce 10 Series graphics c
 - Ubuntu 16.04
 - GeForce 10 Series graphics card
 - Nvidia Linux X64 display driver 375.66 or later
+- Sudoer 
 
 ## To Run
 Set operating temperature between 70C and 80C, check temperature and make necessary fan speed adjustments every 10 minutes. 
 ```
 sh gputempcontrol.sh 80 70 10m
 ```
-Set operating temperature at 75C, check temperature and mek necessary fan speed adjustments every 30 minutes.
+Set operating temperature at 75C, check temperature and make necessary fan speed adjustments every 30 minutes.
 ```
 sh gputempcontrol.sh 75 75 30m
 ```
